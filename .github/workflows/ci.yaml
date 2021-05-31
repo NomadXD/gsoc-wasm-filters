@@ -41,12 +41,12 @@ jobs:
           profile: minimal
           toolchain: ${{ matrix.rust }}
           components: rustfmt
+          target: wasm32-unknown-unknown
           override: true
 
       - uses: actions-rs/cargo@v1
         with:
           command: build
-          target: wasm32-unknown-unknown
           args: --target=wasm32-unknown-unknown
 
       # - uses: actions-rs/cargo@v1
