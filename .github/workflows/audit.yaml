@@ -6,7 +6,6 @@ on:
       - staging
       - trying
       - ci
-  pull_request:
 
 jobs:
   audit_check:
