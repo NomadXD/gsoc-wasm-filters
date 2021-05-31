@@ -6,7 +6,7 @@ on:
       - main
       - staging
       - trying
-      - test/ci
+      - ci
   pull_request:
 
 jobs:
